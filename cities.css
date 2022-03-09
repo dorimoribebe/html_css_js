@@ -57,12 +57,12 @@ img{
 }
 
 
-@media (max-width: 1000){
+@media (max-width: 1000px){
     .container{
         background-color: lavender;
     }
 }
-@media (max-width: 700){
+@media (max-width: 700px){
     .container{
         background-color: rgb(255, 233, 242);
     }
