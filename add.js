@@ -8,7 +8,7 @@ function add(cityName, image){
     document.querySelector("contents").appendChild(div);
 
     const sideDiv = document.createElement("div");
-    sideDiv.innerHTML = `🤍cityName`;
+    sideDiv.innerHTML = `🤍${cityName}`;
     sideDiv.classList.add("side-title");
     document.querySelector("sidebar").appendChild(sideDiv);
 }
